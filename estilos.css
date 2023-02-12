@@ -43,3 +43,59 @@ dd {
   border 2px solid black;
 }
 
+.title-education {
+  font-size: xx-large;
+}
+
+.borde-inferior {
+  border-bottom: 2px dashed white;
+  padding-bottom: 20px;
+}
+
+.aside h2 {
+  font-size: 200%;
+  font-weight: 800;
+  border-bottom: 2px solid white;
+  text-align: center;
+}
+
+h3 {
+  font-size: 40px;
+  text-align: center;
+  margin: auto;
+}
+
+aside figure img {
+  width: 120%;
+  margin-left: -30px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+meter {
+  display: block;
+  width: 80%;
+  border-radius: 40%;
+  height: 40px;
+}
+
+.section-aside {
+  margin-top: 100px;
+}
+
+ul li {
+  font-size: 25px;
+}
+
+#ingles {
+  list-style: none;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+
+
+
+
+
+
