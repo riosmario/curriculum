@@ -28,6 +28,37 @@
   padding: 40px 40px 0px 40px;
 }
 
+/*----aplicando flex para volverlo responsive-----*/
+
+@media (max-width: 1100px) {
+  .nombre {
+    font-size: 60px;
+  }
+
+  .principal {
+    height: 2700px;
+  }
+
+  @media (max-width: 890px) {
+    .nombre {
+      font-size: 60px;
+    }
+  
+    .principal {
+      height: 2900px;
+    }
+
+    @media (max-width: 890px) {
+      .nombre {
+        font-size: 60px;
+      }
+    
+      .principal {
+        height: 2900px;
+      }
+
+
+
 dt {
   font-weight: bolder;
   font-size: 25px;
