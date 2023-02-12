@@ -35,7 +35,7 @@ dt {
 
 dd {
   margin: 0px auto 20px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .contacto {
@@ -60,7 +60,7 @@ dd {
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   margin: auto;
 }
@@ -94,7 +94,39 @@ ul li {
 }
 
 
+/*----Main----*/
 
+.main {
+  width: 70%;
+}
+
+.main h2 {
+  font-size: 40px;
+  font-weight: 800;
+  border-bottom: 3px solid rgb(206,206,249);
+  margin: 40px;
+}
+
+.nombre {
+  width: 100%;
+  font-size: 80px;
+  text-align: center;
+}
+
+#apellido  {
+  height: 50px;
+}
+
+#nombres {
+  margin-top: -15px;
+  border: 2px solid rgb(206,206,249);
+}
+
+.nombre article {
+  height: 230px;
+  margin-top: 80px;
+  background-color: rgb(206,206,249);
+}
 
 
 
