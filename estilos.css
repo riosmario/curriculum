@@ -39,8 +39,8 @@ dd {
 }
 
 .contacto {
-  margin-bottom: 50px;
-  border 2px solid black;
+  border: 2px solid black;
+  margin-top: 150px;
 }
 
 .title-education {
@@ -87,6 +87,10 @@ ul li {
   font-size: 25px;
 }
 
+.idiomas {
+  margin-top: 80px;
+}
+
 #ingles {
   list-style: none;
   font-size: 30px;
@@ -109,7 +113,7 @@ ul li {
 
 .nombre {
   width: 100%;
-  font-size: 80px;
+  font-size: 70px;
   text-align: center;
 }
 
@@ -117,7 +121,7 @@ ul li {
   height: 50px;
 }
 
-#nombres {
+#nombre {
   margin-top: -15px;
   border: 2px solid rgb(206,206,249);
 }
@@ -140,8 +144,8 @@ ul li {
 #exp-1, 
 #exp-2,
 #exp-3 {
-  margin: 60px 0px 0px 0px;
   border-bottom: 2px dashed black;
+  
 }
 
 /*----Redes Sociales----*/
