@@ -166,4 +166,41 @@ ul li {
   border-radius: 50%;
 }
 
+/*----Gracias----*/
+
+.te-gusto {
+  width: auto;
+  height: 150px;
+  padding: 10px 0px 15px 0px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#si,
+#no {
+  width: 80px;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+#si {
+  background-color: green;
+}
+
+#no {
+  background-color: red;
+}
+
+.nota-final {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: medium;
+  color: blue;
+}
+
+
 
