@@ -11,7 +11,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fruktur&family=Open+Sans:wght@300;500;700&family=Sofia+Sans&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fruktur&family=Open+Sans:wght@300;500;700&family=Sofia+Sans&display=swap"
+    rel="stylesheet">
 
 </head>
 <!--Definimos en Body las 2 partes de CV -- aside (izq) y main (der)-->
@@ -20,63 +22,60 @@
   <div class="flex-container">
     <div class="principal">
       <!--aside va a contener datos de filiación: nombre, dni, contacto, etc-->
-      <div class="aside">
-        <aside class="aside">
-          <section>
-            <figure>
-              <img src="/img/fotocvult.jpg" alt="mi foto de cv">
-            </figure>
-          </section>
+      <aside class="aside">
+        <section>
+          <figure>
+            <img src="/img/fotocvult.jpg" alt="mi foto de cv">
+          </figure>
+        </section>
+        <section class="datos-personales">
+          <h2>DATOS PERSONALES</h2>
+          <dl>
+            <dt>DNI: </dt>
+            <dd>12.345.678</dd>
+            <dt>CUIL:</dt>
+            <dd>12-12.345.678-9</dd>
+            <dt>EDAD:</dt>
+            <dd>48 años</dd>
+            <dt>FECHA DE NACIMIENTO:</dt>
+            <dd>01 de Enero de 1974</dd>
+            <dt>DIRECCION: </dt>
+            <dd>Las Castañuelas 456. Córdoba</dd>
+            <dt>EMAIL: </dt>
+            <a href="#" onclick="email">
+              <dd style="color:yellow">algo@hotmail.com</dd>
+            </a>
+          </dl>
+        </section>
+        <section class="educacion section-aside">
+          <h2>ESTUDIOS</h2>
+          <dl>
+            <dt class="title-educacion">EDUCACION MEDIA</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur </dd>
+            <dt>TITULO OBTENIDO</dt>
+            <dd class="borde-inferior">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, sint
+            </dd>
+            <p></p>
+            <dt class="title-educacion">EDUCACION SUPERIOR</dt>
+            <dd>Lorem ipsum dolor sit amet.</dd>
+            <dt>TITULO OBTENIDO</dt>
+            <dd class="borde-inferior">Lorem ipsum dolor sit amet, consectetur adipisicing.</dd>
+          </dl>
+        </section>
+        <section class="idiomas">
+          <h2>IDIOMAS</h2>
+          <ul>
+            <li id="ingles"><strong>INGLÉS</strong></li>
 
-          <section class="datos-personales">
-            <h2>DATOS PERSONALES</h2>
-            <dl>
-              <dt>DNI: </dt>
-              <dd>12.345.678</dd>
-              <dt>CUIL:</dt>
-              <dd>12-12.345.678-9</dd>
-              <dt>EDAD:</dt>
-              <dd>48 años</dd>
-              <dt>FECHA DE NACIMIENTO:</dt>
-              <dd>01 de Enero de 1974</dd>
-              <dt>DIRECCION: </dt>
-              <dd>Las Castañuelas 456. Córdoba</dd>
-              <dt>EMAIL: </dt>
-              <a href="#" onclick="email">
-                <dd style="color:yellow">algo@hotmail.com</dd>
-              </a>
-            </dl>
-          </section>
-          <section class="educacion section-aside">
-            <h2>ESTUDIOS</h2>
-            <dl>
-              <dt class="title-educacion">EDUCACION MEDIA</dt>
-              <dd>Lorem ipsum dolor sit amet consectetur </dd>
-              <dt>TITULO OBTENIDO</dt>
-              <dd class="borde-inferior">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, sint
-              </dd>
-              <p></p>
-              <dt class="title-educacion">EDUCACION SUPERIOR</dt>
-              <dd>Lorem ipsum dolor sit amet.</dd>
-              <dt>TITULO OBTENIDO</dt>
-              <dd class="borde-inferior">Lorem ipsum dolor sit amet, consectetur adipisicing.</dd>
-            </dl>
-          </section>
-          <section class="idiomas">
-            <h2>IDIOMAS</h2>
-            <ul>
-              <li class="ingles"><strong>INGLÉS</strong></li>
-              <li>escribe<meter value="80" min="0" max="100"></meter></li>
-              <li class="ingles"><strong>INGLÉS</strong></li>
-              <li>habla<meter value="70" min="0" max="100"></meter></li>
-            </ul>
-          </section>
-          <section class="contacto sectio-aside">
-            <h2>CONTACTO</h2>
-            <h3 class="numero">123-4567890</h3>
-          </section>
-        </aside>
-      </div>
+            <li>escribe<meter value="80" min="0" max="100"></meter></li>
+            <li>habla<meter value="70" min="0" max="100"></meter></li>
+          </ul>
+        </section>
+        <section class="contacto sectio-aside">
+          <h2>CONTACTO</h2>
+          <h3 class="numero">123-4567890</h3>
+        </section>
+      </aside>
 
       <!--main va a contener datos como educacion, experiencia y habilidades-->
       <div class="main">
