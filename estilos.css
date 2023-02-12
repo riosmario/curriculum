@@ -144,4 +144,26 @@ ul li {
   border-bottom: 2px dashed black;
 }
 
+/*----Redes Sociales----*/
+
+.redes-sociales {
+  margin: auto;
+  margin-left: 75px;
+  width: 90%;
+}
+
+.sociales {
+  width: 80px;
+  margin: 0px 25px 0px 25px;
+  transition: 300ms;
+}
+
+.redes-sociales .sociales:hover {
+  transform: scale(1.2);
+}
+
+.facebook, .tuiter, .linkedin {
+  border-radius: 50%;
+}
+
 
