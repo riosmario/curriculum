@@ -3,10 +3,6 @@ function alertaimagen() {
   alert('Usted hizo click en REDES SOCIALES. Presione enter para continuar');
 }
 
-function alertamail() {
-  alert('Usted hizo click en E-MAIL. Presione enter para continuar');
-}
-
 document.getElementById('si').onclick = function() {
   document.getElementById('gracias').innerText = "Gracias! tu opinion nos ayuda a mejorar!"
 }
