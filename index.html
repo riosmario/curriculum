@@ -42,10 +42,7 @@
             <dt>DIRECCION: </dt>
             <dd>Las Castañuelas 456. Córdoba</dd>
             <dt>EMAIL: </dt>
-            <a href="#" onclick="email">
-              <dd style="color:yellow">algo@hotmail.com</dd>
-            </a>
-          </dl>
+            <a href="#" class="direccionmail" onclick="alert('Hiciste click en el Email');">algo@email.com</a>
         </section>
         <section class="educacion section-aside">
           <h2>ESTUDIOS</h2>
@@ -129,10 +126,13 @@
           <h2>REDES SOCIALES</h2>
           <div class="redes-sociales">
             <figure>
-              <a href="#" onclick="alertaimagen()"><img class="sociales instagram" src="/img/instagram.jpg" alt="instagram"></a>
-              <a href="#" onclick="alertaimagen()"><img class="sociales facebook" src="/img/facebook.jpg" alt="facebook"></a>
-              <a href="#" onclick="alertaimagen()"><img class="sociales tuiter" src="/img/twiter.jpg" alt="tuiter"></a>
-              <a href="#" onclick="alertaimagen()"><img class="sociales linkedin" src="/img/linkedin.jpg" alt="linkedin"></a>
+              <a href="#" onclick="alert('Hiciste click en INSTAGRAM');"><img class="sociales instagram" src="/img/instagram.jpg"
+                  alt="instagram"></a>
+                  <a href="#" onclick="alert('Hiciste click en FACEBOOK');"><img class="sociales facebook" src="/img/facebook.jpg"
+                  alt="facebook"></a>
+                  <a href="#" onclick="alert('Hiciste click en TWITER');"><img class="sociales tuiter" src="/img/twiter.jpg" alt="tuiter"></a>
+                  <a href="#" onclick="alert('Hiciste click en LINKEDIN');"><img class="sociales linkedin" src="/img/linkedin.jpg"
+                  alt="linkedin"></a>
             </figure>
           </div>
         </section>
@@ -141,6 +141,7 @@
           <p>¿Te gustó mi Curriculum?</p>
           <button type="button" id="si"> si </button>
           <button type="button" id="no"> no </button>
+          <p id="gracias">.</p>
         </section>
 
         <section class="nota-final">
@@ -149,6 +150,7 @@
       </div>
     </div>
   </div>
+
 </body>
 
 <script src="/script.js"></script>
